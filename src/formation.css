@@ -1,0 +1,13 @@
+.card{
+    background:white;
+    padding:3rem 5rem;
+}
+
+.card p{
+    padding: top 1rem;
+    line-height:150%;
+}
+.vertical-timeline-element-content {
+    margin: 0;
+}
+ 
