@@ -25,11 +25,11 @@ function Formation() {
     ];
 
     return (
-        <div className='w-full mt-80  bg-[#192a51] text-[#eaf4f4]'>
+        <div className='w-full my-[70px]  bg-[#192a51] text-[#eaf4f4]'>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div name='formation'>
-                    <p className='text-4xl text-[#aaa1c8] font-bold inline border-b-4 border-[#aaa1c8]'>FORMATION</p>
+                    <p className='text-4xl text-[#aaa1c8] font-bold inline '>FORMATION</p>
                 </div>
                 <VerticalTimeline>
                     {formations.map((formation, index) => (

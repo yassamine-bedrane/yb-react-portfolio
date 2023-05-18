@@ -9,7 +9,7 @@ const Work = () => {
     <div name="work" className="w-full mt-80 pb-80 md:h-screen text-gray-300 bg-[#192a51]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl text-[#aaa1c8] font-bold inline border-b-4 text-[#eaf4f4] border-[#aaa1c8]">
+          <p className="text-4xl text-[#aaa1c8] font-bold inline  text-[#eaf4f4] ">
             Projets
           </p>
           <p className="py-6 ">Découvrez ci-dessous quelques-uns de mes projets récents :</p>
