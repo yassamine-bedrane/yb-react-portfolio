@@ -25,25 +25,24 @@ function Formation() {
     ];
 
     return (
-        <div className='w-full mt-80  bg-[#6b9080] text-[#eaf4f4]'>
+        <div className='w-full mt-80  bg-[#192a51] text-[#eaf4f4]'>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div name='formation'>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#2f3e46]'>FORMATION</p>
-                    <p className='py-4'>Voici le timeline de ma formation jusqu'à présent :</p>
+                    <p className='text-4xl text-[#aaa1c8] font-bold inline border-b-4 border-[#aaa1c8]'>FORMATION</p>
                 </div>
                 <VerticalTimeline>
                     {formations.map((formation, index) => (
                         <VerticalTimelineElement
                             key={index}
                             className="vertical-timeline-element"
-                            contentStyle={{ background: '#6b9080', }}
-                            contentArrowStyle={{ borderRight: '7px solid #2f3e46 ' }}
-                            iconStyle={{ background: '#2f3e46' }}
+                            contentStyle={{ background: '#192a51', }}
+                            contentArrowStyle={{ borderRight: '7px solid #aaa1c8 ' }}
+                            iconStyle={{ background: '#aaa1c8' }}
                             date={formation.date}
                             dateClassName="date"
                         >
-                            <h3 className="vertical-timeline-element-title" style={{ color: '#2f3e46', fontSize: '1.2rem', fontWeight: 'bold' }}>
+                            <h3 className="vertical-timeline-element-title" style={{ color: '#aaa1c8', fontSize: '1.2rem', fontWeight: 'bold' }}>
                                 {formation.title}
                             </h3>
 
